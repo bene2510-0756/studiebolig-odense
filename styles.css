@@ -122,20 +122,22 @@ object-fit: cover;
     left: 700px;
     font-size: 30px;
     font-weight: bold;
+    border-style: solid;
 }
 
 .login {
     font-size: 16px;
     background: none;
     border: none; 
-    color: white; 
+    color: var(--light-orange); 
+    font-weight: bold;
 }
 
 .card {
     height: 250px;
     width: calc(33% - 60px);
     padding: 20px;
-    background-color: var(--dark-blue);
+    background-color: var(--medium-blue);
     margin: 10px; 
     display: flex;
     flex-direction: column;
