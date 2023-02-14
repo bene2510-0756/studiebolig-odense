@@ -142,7 +142,7 @@ object-fit: cover;
 }
 
 .card {
-    height: 250px;
+    height: 350px;
     width: calc(33% - 60px);
     padding: 20px;
     background-color: var(--medium-blue);
