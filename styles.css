@@ -1,6 +1,7 @@
 :root {
     --darkest-blue:  #072F5F;
     --dark-blue: #1261A0;
+    --medium-blue: #3895D3;
     --light-blue:  #D1EBFF;
     --light-orange: #FFB100;
     --dark-orange: #FF7F00; 
@@ -29,9 +30,10 @@ nav {
     display: flex;
     background-color: var(--dark-blue);
     color: white;
+    font-weight: bold;
     justify-content: space-between;
     align-items: center;
-    padding:0 15px;
+    padding:0 20px;
 }
 
 ul {
@@ -55,31 +57,32 @@ footer {
     height: 50px;
     display: flex;
     align-items: center;
-    padding: 0 15px;
+    padding: 0 20px;
+    font-weight: bold;
 }
 
 .dark-blue {
-    height: 250px;
+    height: 400px;
     background-color:var(--dark-blue);
 }
 
 .light-blue {
     background-color:var(--light-blue);
-    height: 500px;
+    height: 450px;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    padding: 0 15px 15px 15px;
+    padding: 0 20px 20px 20px;
 }
 
 .image-container {
     display: flex;
     z-index: 1;
     height: 350px;
-    width: calc(100% - 30px);
+    width: calc(100% - 40px);
     position: absolute;
     top: 20%;
-    margin: 15px;
+    margin: 20px;
     justify-content: space-between;
 
 
@@ -92,22 +95,23 @@ object-fit: cover;
 }
 
 .image-box {
-    padding: 15px;
-    background-color: var(--darkest-blue);
+    padding: 20px;
+    background-color: var(--medium-blue);
 }
 
 .wide {
     width: 66%;
-    margin-right: 15px;
 }
 
 .narrow {
     width: 33%;
+    margin-right: 20px;
 }
 
 .apply-button {
     background-color: var(--light-orange);
     border-color: var(--dark-orange);
+    border-width: 5px;
     color: white; 
     border-radius: 50%;
     width: 200px;
@@ -115,8 +119,9 @@ object-fit: cover;
     z-index: 2;
     position: absolute;
     top: 100px;
-    left: 200px;
+    left: 700px;
     font-size: 30px;
+    font-weight: bold;
 }
 
 .login {
@@ -128,10 +133,10 @@ object-fit: cover;
 
 .card {
     height: 250px;
-    width: calc(33% - 45px);
-    padding: 15px;
+    width: calc(33% - 60px);
+    padding: 20px;
     background-color: var(--dark-blue);
-    margin: 7.5px 7.5px 7.5px 7.5px; 
+    margin: 10px; 
     display: flex;
     flex-direction: column;
 }
@@ -143,9 +148,17 @@ object-fit: cover;
 .card-holder {
     display: flex;
     flex-wrap: wrap;
-    padding: 7.5px;
+    padding: 10px;
 }
 
 .information {
-    padding: 15px;
+    padding: 20px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
 }
