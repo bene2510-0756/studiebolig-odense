@@ -172,3 +172,32 @@ h1 {
 h2 {
     font-weight: bold;
 }
+
+.login-page {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-submit {
+    padding: 10px;
+    background-color: var(--light-orange);
+    border-color: var(--dark-orange);
+    border-radius: 20px;
+    width: 75px;
+    border-style: solid;
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.input {
+    width: 50%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-style: italic;
+    font-family: Helvetica, sans-serif;
+}
+
