@@ -161,6 +161,13 @@ object-fit: cover;
     height: 50%;
 }
 
+.card-box {
+    height: 50%;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
 .card-holder {
     display: flex;
     flex-wrap: wrap;
