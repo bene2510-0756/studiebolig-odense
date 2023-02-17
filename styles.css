@@ -158,11 +158,11 @@ object-fit: cover;
 }
 
 .card > img {
-    height: 50%;
+    height: 60%;
 }
 
 .card-box {
-    height: 50%;
+    height: 40%;
     background-color: white;
     padding: 20px;
     margin-top: 20px;
