@@ -69,6 +69,12 @@ footer {
     font-weight: bold;
 }
 
+main {
+    height: 100%;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
 .dark-blue {
     height: 400px;
     background-color:var(--dark-blue);
@@ -142,11 +148,11 @@ object-fit: cover;
 }
 
 .card {
-    height: 350px;
+    height: 450px;
     width: calc(33% - 60px);
     padding: 20px;
     background-color: var(--medium-blue);
-    margin: 10px; 
+    margin: 10px 10px 10px 10px; 
     display: flex;
     flex-direction: column;
 }
@@ -158,11 +164,6 @@ object-fit: cover;
 .card-holder {
     display: flex;
     flex-wrap: wrap;
-    padding: 10px;
-}
-
-.information {
-    padding: 20px;
 }
 
 h1 {
@@ -174,7 +175,6 @@ h2 {
 }
 
 .login-page {
-    padding: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -203,4 +203,36 @@ h2 {
 
 p {
     width: 50%;
+}
+
+#message {
+    height: 100px;
+}
+
+.search-box {
+    height: 450px;
+    background-color: var(--medium-blue);
+    width: calc(100% - 40px);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.parametre {
+    height: calc(100% - 40px);
+    width: calc(33% - 40px);
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+.input-search {
+    width: calc(100% - 40px);
+    background-color: var(--light-blue);
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-style: italic;
+    font-family: Helvetica, sans-serif;
 }

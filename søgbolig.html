@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Log ind</title>
+        <title>Søg Bolig</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
@@ -20,15 +20,20 @@
             <button class="login"><a href="logind.html">Log ind</a></button>
         </nav>
         <main>
-            <div class="login-page">
-            <h2>Log ind</h2>
-            <input type="text" id="username" class="input" name="username" placeholder="Brugernavn">
-            <input type="text" id="password" class="input" name="password" placeholder="Adgangskode">
-            <input type="submit" class="login-submit" value="Log ind">
-        </div>
+            <h2>Søg Bolig</h2>
+            <div class="search-box">
+                <div class="parametre">
+                    <h2>Søgeparametre</h2>
+                    <input type="text" id="rooms" class="input-search" name="rooms" placeholder="Antal værelser min.">
+            <input type="text" id="rooms" class="input-search" name="rooms" placeholder="Antal værelser maks.">
+            <input type="text" id="m2" class="input-search" name="m2" placeholder="Minimum m^2">
+            <input type="text" id="rent" class="input-search" name="rent" placeholder="Maksimum husleje">
+            <div><input type="submit" class="login-submit" value="Søg"></div>
+                </div>
+            </div>
         </main>
         <footer>
-            <p>STUDIEBOLIG ODENSE</p>
+            <p>Studiebolig Odense</p>
         </footer>
     </body>
 </html>
