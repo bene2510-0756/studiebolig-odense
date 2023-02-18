@@ -219,8 +219,7 @@ p {
 .search-box {
     height: 450px;
     background-color: var(--medium-blue);
-    width: calc(100% - 40px);
-    margin: 20px;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
