@@ -33,9 +33,23 @@
                         <input type="text" id="password" class="input" name="password" placeholder="Adgangskode">
                     </div>
                     <div>
-                        <input type="submit" class="login-submit" value="Log ind">
+                        <input id="submit" type="submit" class="login-submit" value="Log ind">
+                    </div>
+                    <div>
+                        <p id="glemtkode" class="glemtkode">Glemt kode eller brugernavn?</p>
                     </div>
                 </form>
+
+                <div id="usernamemessage" class="popbesked">
+                    <h3>Brugernavn må kun indeholde:</h3>
+                    <p id="bogstaver" class="invalid">Små bogstaver</p>
+                </div>
+
+                <div id="passwordmessage" class="popbesked">
+                    <h3>Adgangskoden skal indeholde følgende:</h3>
+                    <p id="tal" class="invalid">Minimum ét tal</p>
+                    <p id="karakterer" class="invalid">Minimum otte karakterer</p>
+                </div>
             </div>
         </div>
         </main>
